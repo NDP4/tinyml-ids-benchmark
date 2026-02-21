@@ -1,0 +1,70 @@
+# =============================================================================
+# .gitignore for tinyml-ids-benchmark
+# =============================================================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+*.so
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_meta
+
+# --- Data (large datasets - NOT tracked) ---
+# Users must download datasets separately; see README.md
+data/KDDTrain+.csv
+data/KDDTest+.csv
+data/*.npz
+data/edgeiiotset*/
+*.pkl
+*.joblib
+*.h5
+
+# --- Arduino/ESP32 build artifacts ---
+**/build/
+*.elf
+*.hex
+*.bin
+*.map
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# --- IDE ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- LaTeX (paper source not in repo) ---
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# --- Misc ---
+*.tmp
+*.bak
+*.orig
