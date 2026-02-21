@@ -8,7 +8,7 @@
 
 This repository provides the reproducible code, firmware, trained model headers, and benchmark scripts accompanying the paper:
 
-> N. D. Priyambodo, "Deployment-Oriented Benchmarking of Decision Tree, Random Forest, and KNN for Intrusion Detection on Resource-Constrained IoT Platforms," _IEEE Access_, 2025.
+> N. D. Priyambodo, "Deployment-Oriented Benchmarking of Decision Tree, Random Forest, and KNN for Intrusion Detection on Resource-Constrained IoT Platforms," _IEEE Access_, 2026.
 
 We benchmark three classical machine learning models—Decision Tree (DT), Random Forest (RF), and _k_-Nearest Neighbors (KNN)—for binary intrusion detection deployed on **ESP32**, **Arduino Uno**, and **Arduino Nano** via [MicroMLGen](https://github.com/eloquentarduino/micromlgen).
 
@@ -164,11 +164,11 @@ python benchmark/aggregate_results.py
 If you use this code or data in your research, please cite:
 
 ```bibtex
-@article{priyambodo2025tinyml,
+@article{priyambodo2026tinyml,
   title={Deployment-Oriented Benchmarking of Decision Tree, Random Forest, and KNN for Intrusion Detection on Resource-Constrained IoT Platforms},
   author={Priyambodo, Nur Dwi},
   journal={IEEE Access},
-  year={2025},
+  year={2026},
   publisher={IEEE}
 }
 ```
@@ -180,5 +180,5 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 ## Contact
 
 - **Author:** Nur Dwi Priyambodo
-- **Email:** nur.priyambodo@students.amikom.ac.id
-- **Affiliation:** Department of Informatics Engineering, Universitas Amikom Yogyakarta
+- **Email:** nur.priyambodo@proton.me
+- **Affiliation:** --
