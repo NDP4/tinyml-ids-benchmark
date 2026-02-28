@@ -6,3 +6,4 @@ matplotlib>=3.7.0
 seaborn>=0.12.0
 pyserial>=3.5
 micromlgen==1.3.6
+tensorflow>=2.12.0

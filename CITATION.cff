@@ -1,12 +1,12 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the associated paper."
-title: "Deployment-Oriented Benchmarking of Decision Tree, Random Forest, and KNN for Intrusion Detection on Resource-Constrained IoT Platforms"
+title: "Deployment-Oriented Benchmarking of Classical and Neural Machine Learning for Intrusion Detection on Resource-Constrained IoT Platforms"
 authors:
   - family-names: Priyambodo
     given-names: Nur Dwi
     orcid: ""
-    affiliation: "Department of Informatics Engineering, Universitas Amikom Yogyakarta"
-    email: nur.priyambodo@students.amikom.ac.id
+    affiliation: "Department of Informatics Engineering, Universitas Dian Nuswantoro Semarang"
+    email: nurdwipriyambodo@proton.me
 type: software
 license: MIT
 repository-code: "https://github.com/NDP4/tinyml-ids-benchmark"
@@ -22,9 +22,14 @@ keywords:
   - decision-tree
   - random-forest
   - knn
+  - deep-neural-network
+  - convolutional-neural-network
+  - tensorflow-lite
+  - model-quantization
   - benchmark
 abstract: >-
-  Reproducible benchmark of Decision Tree, Random Forest, and KNN
-  for binary intrusion detection deployed on ESP32, Arduino Uno,
-  and Arduino Nano via MicroMLGen. Evaluated on NSL-KDD and
-  Edge-IIoTset v2 datasets.
+  Reproducible benchmark of Decision Tree, Random Forest, KNN,
+  DNN, and 1D-CNN for binary intrusion detection deployed on
+  ESP32, Arduino Uno, and Arduino Nano. Classical models via
+  MicroMLGen; neural models via TFLite Micro with INT8 quantization.
+  Evaluated on NSL-KDD and Edge-IIoTset v2 datasets.
