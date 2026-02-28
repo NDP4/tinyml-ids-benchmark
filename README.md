@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TinyML-IDS Benchmark: Classical and Neural Machine Learning for Intrusion Detection on Microcontrollers
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -214,3 +215,4 @@ This generates unified comparison tables across DT, RF, KNN, DNN, and CNN for al
 ## License
 
 This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
+=======
